@@ -4,9 +4,9 @@ sourcedir  = src
 modules    = Algebra.Graph.Types
 -- TODO: tests
 
-ibrief      = "The theory of algebraic graphs formalised in Agda"
+ibrief      = "The theory of algebraic graphs formalised in Idris"
 -- TODO: version
--- TODO: readme
+readme     = README.md
 license    = BSD-3
 author     = Eric Bailey
 
