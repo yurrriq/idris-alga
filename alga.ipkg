@@ -4,7 +4,7 @@ sourcedir  = src
 modules    = Algebra.Graph.Types
 -- TODO: tests
 
-ibrief      = "The theory of algebraic graphs formalised in Idris"
+brief      = "The theory of algebraic graphs formalised in Idris"
 -- TODO: version
 readme     = README.md
 license    = BSD-3
@@ -13,3 +13,5 @@ author     = Eric Bailey
 homepage   = https://github.com/yurrriq/idris-alga
 sourceloc  = git://git@github.com:yurrriq/idris-alga.git
 bugtracker = https://github.com/yurrriq/idris-alga/issues
+
+opts = "--noprelude"
